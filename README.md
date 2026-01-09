@@ -7,7 +7,7 @@ In this study we used 4 different stimuli with corresponding control stimuli: \
 First: three pure tones during - and without notch noise \
 Second: AM pure tone during - and without notch noise \
 Third: 40s notch noise with 10s pause x 3 times - 40s white noise with 10s pause x 3 times \
-Fourth: for two minutes each 2s notch noises with 1s pauses - 2s white noises with 1s pauses 
+Fourth: for two minutes each 2s notch noises with 1s pauses - 2s white noises with 1s pauses
 
 The python scripts are used for evaluating the EEG data like following:
 
