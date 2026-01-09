@@ -1,4 +1,4 @@
-# EEG Study
+# Zwickertone EEG Study
 ## Mechanisms of Zwicker Tone Induction: Notched Noise Changes Neural Processing without Evidence for Central Gain or Auditory Enhancement
 
 This repository explains the processing and methods used to analyze the EEG. The preprocessed EEG data with the according stimuli channels and the stimuli files can be downloaded from Zenodo (https://zenodo.org/records/18186380) "Zwickerton EEG Study".
@@ -11,7 +11,10 @@ In this study we used 4 different stimuli with corresponding control stimuli:
 
 The python scripts are used for evaluating the EEG data like following:
 
-1. 
-2. MEG data was preprocessed using MEG_preprocess_OpenAccess.py
-3. For aligning the audio book with stimuli channels we used Forced Alignment https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSBasic with the audio signals and transcript to get the word onsets
-4. Each word in the transcript was classified into word classes using spaCy https://spacy.io/
+1. Aligning and segmenting data for the specific stimuli: "Zwickerton_Evaluation_github.py"
+2. Evaluating data for first stimulus: "1_evaluation_github.py"
+3. Evaluating data for second stimulus: "2_evaluating_github.py"
+4. Comparing different models using data from third stimulus: "3_classification_model_comparison_github.py"
+5. Plotting clusters using data from third stimulus and calculating GDV values: "3_cluster_gdv_github.py"
+6. Frequency analysis of offset responses using dat of fourth stimulus: "4_frequency_analysis_github.py"
+7. Statistically evaluating ERPs offset responses: "4_offset_evaluation_github.py"
